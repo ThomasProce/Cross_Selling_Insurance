@@ -23,7 +23,7 @@ Given the highly unbalanced nature of the dataset, the focus was on models suita
 - Balanced Random Forest Classifier
 - Logistic regression as a baseline model to assess the impact of class imbalance.
   
-Complex ensemble models are often effective in these scenarios. Therefore, the Balanced Random Forest was used for the final training.
+Complex ensemble models are often effective in these scenarios. Therefore, the XGBoost was used for the final training.
 
 Each model underwent a randomized search for hyperparameter tuning.
 
